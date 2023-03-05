@@ -14,7 +14,7 @@ char TextViewerFileName[MAX_PATH] = {""};  // the most recent file loaded into t
 TCHAR* TextViewerBuffer = nullptr;  // the unicode text buffer to display in the source code text window
 int TextViewBuffer_TotalSize = 0;
 
-
+// Just wow now this is real programming
 int GetSizeOfTextBufferInUnicode(char* buffer, int buffer_length)
 {
 	int total_size = 0;
